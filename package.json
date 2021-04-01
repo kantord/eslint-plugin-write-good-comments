@@ -1,16 +1,27 @@
 {
-  "name": "eslint-write-good-comments",
-  "version": "0.1.0",
-  "description": "ESLint rule that forces you to write good comments",
-  "main": "src/index.js",
-  "repository": "git@github.com:kantord/eslint-write-good-comments.git",
-  "author": "Dániel Kántor <git@daniel-kantor.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "jest": "^26.6.3"
+  "name": "eslint-plugin-write-good-comments",
+  "version": "0.1.3",
+  "description": "Enforce good writing style in your comments",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Dániel Kántor",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha lib --recursive"
   },
   "dependencies": {
-    "eslint": "^7.23.0",
+    "requireindex": "~1.1.0",
     "write-good": "^1.0.8"
-  }
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "mocha": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
 }
