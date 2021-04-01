@@ -2,6 +2,9 @@
 
 Enforce good writing style in your comments
 
+![2021-04-01T18:27:14+02:00](https://user-images.githubusercontent.com/3704904/113325601-f68f0b80-9318-11eb-8fe8-c9914e48e28e.png)
+
+
 ## Installation
 
 You'll first need to install [ESLint](http://eslint.org):
