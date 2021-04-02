@@ -1,5 +1,11 @@
 <h1 align="center">eslint-plugin-write-good-comments</h1>
 
+<p align="center">
+  <a href="#installation">Installation ✴️</a>
+  <a href="#usage">Usage </a>
+</p>
+
+
 Enforce good writing style in your comments.
 
 Using better writing style gives you more concise and expressive comments.
