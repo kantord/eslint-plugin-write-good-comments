@@ -2,7 +2,8 @@
 
 <p align="center">
   <a href="#installation">Installation ✴️</a>
-  <a href="#usage">Usage </a>
+  <a href="#usage">Usage ✴️</a>
+  <a href="#examples">Examples/a>
 </p>
 
 
@@ -49,4 +50,40 @@ Then configure the rules you want to use under the rules section.
         "write-good-comments/write-good-comments": "warn"
     }
 }
+```
+
+## Examples
+
+### Passive voice
+
+Checks for the usage of passive voice.
+
+❌ **Bad**:
+
+```javascript
+// files are handled by loadContent()
+```
+
+✔️ **Good**:
+
+```javascript
+// loadContent() handles files
+```
+
+### Illusion
+
+Checks for cases when a word is repeated.
+
+❌ **Bad**:
+
+```javascript
+// loadContent() handles the files that the
+// the plugin system doesn't support
+```
+
+✔️ **Good**:
+
+```javascript
+// loadContent() handles the files that the
+// plugin system doesn't support
 ```
