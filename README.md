@@ -108,3 +108,21 @@ Weasel words are words that are ambiguous or misleading.
 // loadContent() handles the files that the
 // plugin system doesn't support
 ```
+
+
+### Wordy expressions
+
+Expressions or words that are too lengthy and complicated.
+
+❌ **Bad**:
+
+```javascript
+// by virtue of the fact that if there's no token, the user must be logged out
+```
+
+✔️ **Good**:
+
+```javascript
+// because if there's no token, the user must be logged out
+```
+
