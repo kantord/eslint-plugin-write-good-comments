@@ -54,6 +54,9 @@ Then configure the rules you want to use under the rules section.
 
 ## Examples
 
+This plugin checks your writing using [write-good](https://github.com/btford/write-good).
+Check their documentation for a full list of what it checks for.
+
 ### Passive voice
 
 Checks for the usage of passive voice.
@@ -79,6 +82,24 @@ Checks for cases when a word is repeated.
 ```javascript
 // loadContent() handles the files that the
 // the plugin system doesn't support
+```
+
+✔️ **Good**:
+
+```javascript
+// loadContent() handles the files that the
+// plugin system doesn't support
+```
+
+### Weasel words
+
+Weasel words are words that are ambiguous or misleading.
+
+❌ **Bad**:
+
+```javascript
+// loadContent() handles the files that the
+// plugin system probably doesn't support
 ```
 
 ✔️ **Good**:
