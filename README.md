@@ -29,6 +29,8 @@ Next, install `eslint-plugin-write-good-comments`:
 npm install eslint-plugin-write-good-comments --save-dev
 ```
 
+_Shameless plug_: I created this rule while working on my main pet-project, [LibreLingo](https://github.com/kantord/LibreLingo).
+
 ## Usage
 
 Add `write-good-comments` to the plugins section of your `.eslintrc`
