@@ -7,6 +7,10 @@
     "eslintplugin",
     "eslint-plugin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kantord/eslint-plugin-write-good-comments.git"
+  },
   "author": "Dániel Kántor",
   "main": "lib/index.js",
   "scripts": {
