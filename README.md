@@ -54,6 +54,22 @@ Then configure the rules you want to use under the rules section.
 }
 ```
 
+You can also disable or enable [checks](https://github.com/btford/write-good#checks) and whitelist words.
+
+```json
+{
+    "rules": {
+        "write-good-comments/write-good-comments": [
+            "warn", 
+            {
+                "passive": false,
+                "whitelist": ["read-only"]
+            }
+        ]
+    }
+}
+```
+
 ## Examples
 
 This plugin checks your writing using [write-good](https://github.com/btford/write-good).
