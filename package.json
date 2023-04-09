@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-write-good-comments",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Enforce good writing style in your comments",
   "keywords": [
     "eslint",
